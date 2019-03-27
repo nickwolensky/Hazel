@@ -31,7 +31,7 @@ namespace Hazel {
 		EventCategoryMouseButton	= BIT(4)
 	};
 
-	class Hazel_API Event
+	class HAZEL_API Event
 	{
 		friend class EventDispatcher;
 	public:
